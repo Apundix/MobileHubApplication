@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:id="@+id/cellTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:textColor="@color/grey"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/cellDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_below="@id/cellTitle"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="7dp"
+        android:maxLines="1"
+        android:textColor="@color/grey"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/macAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MacAddress"
+        android:layout_below="@id/cellDesc"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="7dp"
+        android:maxLines="1"
+        android:textColor="@color/grey"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_devices_other_24" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/eagle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/eagle" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/eagle"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/edit_background"
+        android:hint="Email"
+        android:paddingLeft="13dp" />
+
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/NewView"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="65.5dp"
+        android:layout_below="@id/edit_email"
+        app:hintEnabled="false"
+        android:layout_marginTop="8.3dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_background"
+            android:paddingLeft="13dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:ems="500"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NewView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/btn_background"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:text="Sign Up"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"/>
+
+
+</RelativeLayout>

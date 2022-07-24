@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Updates|About"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="50dp"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginTop="50dp"
+        android:layout_width="220dp"
+        android:layout_height="480dp"
+        android:background="@drawable/left_panel"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Updates"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="125dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="419dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/newBox"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/shapeshifter"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="At the momement, \nthere currently has been no updates!"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shapeshifter"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/newBox"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This applicaiton is meant to be a hub for modest needs technologically\n\n-Updates will come in the future."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

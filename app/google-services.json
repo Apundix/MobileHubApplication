@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "115390708264",
+    "project_id": "chatapplication-a9ade",
+    "storage_bucket": "chatapplication-a9ade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115390708264:android:4c214918511b2f3066531d",
+        "android_client_info": {
+          "package_name": "com.evan.chattest2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115390708264-d2mte0lsisi2tdoh2oj8tshs7he6poof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRvfsEzbnQCO9qFpixD1ZKy3Ee0GNJcD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115390708264-d2mte0lsisi2tdoh2oj8tshs7he6poof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
